@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.kpu.ihpweb.mapper.CafeMemberMapper">
+
+	<insert id="register">
+		insert into tk_cafemember ( id
+		, passwd
+		, username,
+		email
+		)
+		values( #{id}
+		, #{passwd}
+		, #{username}, #{email})
+	</insert>
+
+	<select id="login"
+		resultType="org.kpu.ihpweb.domain.CafeMemberVO">
+		select id, passwd
+		from tk_cafemember
+		where id =
+		#{id}
+		and
+		passwd
+		= #{passwd}
+	</select>
+
+	<update id="memberUpdate">
+		update tk_cafemember set
+		passwd = #{passwd},
+		username =
+		#{username},
+		email =
+		#{email}
+		where id = #{id}
+	</update>
+
+	<delete id="memberDelete">
+		delete from tk_cafemember
+		where id = #{id}
+		and passwd =
+		#{passwd}
+	</delete>
+
+	<update id="registerPoint">
+		update tk_cafemember set mpoint = mpoint + 10 where
+		id =
+		#{id}
+	</update>
+
+	<select id="selectByid"
+		resultType="org.kpu.ihpweb.domain.CafeMemberVO">
+		select * from tk_cafemember where id = #{id}
+	</select>
+
+</mapper>  

@@ -1,0 +1,21 @@
+@charset "EUC-KR";
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: content-box;
+}
+
+.container {
+	background-color: #f5f5f5;
+	border-radius: 89px;
+}
+
+.Avatar {
+	border-radius: 500px;
+	border: 25px solid white;
+	background-color: #457
+}
+
+footer {
+	background-color: #f5f5f5;
+}

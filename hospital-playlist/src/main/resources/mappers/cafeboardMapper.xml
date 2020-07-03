@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.kpu.ihpweb.mapper.CafeBoardMapper">
+	<select id="listAll"
+		resultType="org.kpu.ihpweb.domain.CafeBoardVO">
+		select b_id, b_title, b_main, date, writer_id, b_viewcnt
+		from
+		tk_cafeboard order by b_id
+		desc, date desc
+	</select>
+
+	<insert id="insert">
+		insert into tk_cafeboard (b_title, b_main,
+		writer_id)
+		values (
+		#{b_title}, #{b_main}, #{writer_id})
+	</insert>
+
+	<select id="view" resultType="org.kpu.ihpweb.domain.CafeBoardVO">
+		select * from tk_cafeboard
+		where
+		b_id=#{b_id}
+	</select>
+
+	<update id="increaseViewcnt">
+		update tk_cafeboard set b_viewcnt = b_viewcnt + 1
+		where
+		b_id = #{b_id}
+
+	</update>
+
+	<update id="updateArticle">
+
+		update tk_cafeboard set b_title=#{b_title},
+		b_main=#{b_main}, writer_id=#{writer_id} where b_id=#{b_id}
+
+	</update>
+
+	<delete id="deleteArticle">
+		delete from tk_cafeboard where b_id=#{b_id}
+
+
+	</delete>
+</mapper>
