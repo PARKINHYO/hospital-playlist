@@ -54,31 +54,12 @@ Tomcat : 9.0(Window -> Prefrences -> Server -> Runtime Environment -> Add)
 &nbsp;
 ## Demo
 
-
-<div style="float: left; width: 50%;">
-<img src="https://user-images.githubusercontent.com/47745785/86486662-d258cb00-bd96-11ea-9673-f72238b8d90f.png">
-</div>
-<div style="float: left; width: 50%;">
-<img src="https://user-images.githubusercontent.com/47745785/86486646-c3721880-bd96-11ea-9fe3-5f77102ef456.png">
-</div>
-<div style="float: left; width: 50%;">
-<img src="https://user-images.githubusercontent.com/47745785/86486677-e56b9b00-bd96-11ea-9bbe-8dc9e1dbeb84.png">
-</div>
-
-<div style="float: left; width: 50%;">
-<img src="https://user-images.githubusercontent.com/47745785/86487069-0ed8f680-bd98-11ea-94d4-08c5e7969285.png">
-</div>
-<div style="float: left; width: 50%;">
-<img src="https://user-images.githubusercontent.com/47745785/86486718-0207d300-bd97-11ea-8834-99e1cc808714.png">
-</div>
-<div style="float: left; width: 50%;">
-<img src="https://user-images.githubusercontent.com/47745785/86486753-1f3ca180-bd97-11ea-8524-b993f9626bcd.png">
-</div>
-
-<div style="float: left; width: 50%;">
-<img src="https://user-images.githubusercontent.com/47745785/86486769-2794dc80-bd97-11ea-99c4-1e3ae161510e.png">
-</div>
-
-
+<img width="500" src="https://user-images.githubusercontent.com/47745785/86486662-d258cb00-bd96-11ea-9673-f72238b8d90f.png">
+<img width="500" src="https://user-images.githubusercontent.com/47745785/86486646-c3721880-bd96-11ea-9fe3-5f77102ef456.png">
+<img width="500" src="https://user-images.githubusercontent.com/47745785/86486677-e56b9b00-bd96-11ea-9bbe-8dc9e1dbeb84.png">
+<img width="500" src="https://user-images.githubusercontent.com/47745785/86487441-09c87700-bd99-11ea-90ed-a16ffc6b9ff3.png">
+<img width="500" src="https://user-images.githubusercontent.com/47745785/86486718-0207d300-bd97-11ea-8834-99e1cc808714.png">
+<img width="500" src="https://user-images.githubusercontent.com/47745785/86486753-1f3ca180-bd97-11ea-8524-b993f9626bcd.png">
+<img width="500" src="https://user-images.githubusercontent.com/47745785/86486769-2794dc80-bd97-11ea-99c4-1e3ae161510e.png">
 
 
